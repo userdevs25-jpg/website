@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Computadores | Informática & Assistência Técnica</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Roberto Computadores - Assistência técnica qualificada, venda de computadores, notebooks, periféricos, e soluções de backup em nuvem em Cajuru - SP.">
+    <meta name="keywords"
+        content="roberto computadores, informatica cajuru, assistencia tecnica, notebook, pc gamer, tv box, jbl, backup em nuvem, cajuru sp">
+    <meta name="author" content="RR On Line">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.robertocomputadores.com.br/">
+    <meta property="og:title" content="Roberto Computadores | Informática & Assistência Técnica">
+    <meta property="og:description"
+        content="Assistência técnica especializada, venda de computadores e produtos de informática em Cajuru - SP.">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#inicio" class="logo" data-target="inicio">
+                <img src="images/logo_light.png" alt="Roberto Computadores Logo" class="logo-img logo-light">
+                <img src="images/logo_dark.png" alt="Roberto Computadores Logo" class="logo-img logo-dark">
+            </a>
+
+            <button class="menu-btn" id="menu-btn" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="active" data-target="inicio">Início</a></li>
+                    <li><a href="#produtos" data-target="produtos">Produtos</a></li>
+                    <li><a href="#backup" data-target="backup">Cloud Backup</a></li>
+                    <li><a href="#downloads" data-target="downloads">Downloads</a></li>
+                    <li><a href="#sobre" data-target="sobre">Sobre</a></li>
+                    <li><a href="#certificado" data-target="certificado">Certificado Digital</a></li>
+                    <li><a href="#contato" data-target="contato">Contato</a></li>
+                </ul>
+
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Alternar Tema">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <a href="#contato" class="btn-cta" data-target="contato">
+                        <i class="fa-solid fa-headset"></i> Suporte
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- SECTION 1: INÍCIO (HERO) -->
+        <section id="inicio" class="section active">
+            <div class="container hero">
+                <div class="hero-content">
+                    <div class="badge">
+                        <i class="fa-solid fa-circle-check"></i> Tecnologia ao seu alcance
+                    </div>
+                    <h1 class="hero-title">
+                        Conectando você ao futuro da <span>Informática</span>.
+                    </h1>
+                    <p class="hero-desc">
+                        Oferecemos assistência técnica altamente especializada, venda de computadores, notebooks de alta
+                        performance, periféricos e soluções avançadas de Cloud Backup em Cajuru - SP.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#produtos" class="btn-cta" data-target="produtos">
+                            <i class="fa-solid fa-cube"></i> Ver Produtos
+                        </a>
+                        <a href="#sobre" class="btn-secondary" data-target="sobre">
+                            Conhecer Loja
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-val">10+</span>
+                            <span class="stat-lbl">Anos de Mercado</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-val">5K+</span>
+                            <span class="stat-lbl">Clientes Felizes</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-val">100%</span>
+                            <span class="stat-lbl">Suporte Garantido</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-glow"></div>
+                    <img src="images/hero_tech.png" alt="Informática Avançada" class="hero-img" id="hero-main-img">
+                </div>
+            </div>
+
+            <!-- Brands Marquee Section -->
+            <div class="brands-section">
+                <div class="container">
+                    <p class="brands-title">Trabalhamos com as melhores marcas</p>
+                    <div class="brands-container">
+                        <div class="brands-marquee">
+                            <div class="brand-logo"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+                            <div class="brand-logo"><i class="fa-brands fa-windows"></i> Intel</div>
+                            <div class="brand-logo"><i class="fa-solid fa-server"></i> WD (Western Digital)</div>
+                            <div class="brand-logo"><i class="fa-solid fa-laptop"></i> HP</div>
+                            <div class="brand-logo"><i class="fa-solid fa-tv"></i> Samsung</div>
+                            <div class="brand-logo"><i class="fa-solid fa-hard-drive"></i> LG</div>
+                            <div class="brand-logo"><i class="fa-solid fa-microchip"></i> Acer</div>
+                            <!-- Repeat for smooth scrolling loop -->
+                            <div class="brand-logo"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+                            <div class="brand-logo"><i class="fa-brands fa-windows"></i> Intel</div>
+                            <div class="brand-logo"><i class="fa-solid fa-server"></i> WD</div>
+                            <div class="brand-logo"><i class="fa-solid fa-laptop"></i> HP</div>
+                            <div class="brand-logo"><i class="fa-solid fa-tv"></i> Samsung</div>
+                            <div class="brand-logo"><i class="fa-solid fa-hard-drive"></i> LG</div>
+                            <div class="brand-logo"><i class="fa-solid fa-microchip"></i> Acer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: PRODUTOS -->
+        <section id="produtos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Vitrine Virtual</span>
+                    <h2 class="section-title">Nossos <span>Produtos</span></h2>
+                    <p class="section-desc">Confira alguns dos nossos equipamentos e acessórios em destaque.
+                        Equipamentos com garantia e suporte total.</p>
+                </div>
+
+                <div class="products-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="hardware">PCs & Notebooks</button>
+                    <button class="filter-btn" data-filter="pecas">Peças & Armazenamento</button>
+                    <button class="filter-btn" data-filter="acessorios">Acessórios & Periféricos</button>
+                    <button class="filter-btn" data-filter="audio-rede">Áudio & Redes</button>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product 1: PCs Montados -->
+                    <div class="product-card" data-category="hardware">
+                        <div class="product-badge">Destaque</div>
+                        <div class="product-img-wrapper">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Computadores & PCs Gamers</h3>
+                            <p class="product-desc">Máquinas montadas sob medida para escritório, home office ou jogos de alta performance com processadores Intel e AMD Ryzen.</p>
+                            <div class="product-footer">
+                                <div class="product-price"><span>Sob Medida</span></div>
+                                <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20Computador/PC%20Gamer"
+                                    target="_blank" class="product-btn" aria-label="Consultar Preço no WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2: Notebooks -->
+                    <div class="product-card" data-category="hardware">
+                        <div class="product-badge">Premium</div>
+                        <div class="product-img-wrapper">
+                            <i class="fa-solid fa-laptop"></i>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Notebooks de Várias Marcas</h3>
+                            <p class="product-desc">Encontre notebooks ideais para trabalho, estudos ou jogos. Equipamentos HP, Acer, Dell e Lenovo com SSD de alta velocidade.</p>
+                            <div class="product-footer">
+                                <div class="product-price"><span>Sob Consulta</span></div>
+                                <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20saber%20sobre%20os%20Notebooks%20disponíveis"
+                                    target="_blank" class="product-btn" aria-label="Consultar Preço no WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3: SSDs & Memórias -->
+                    <div class="product-card" data-category="pecas">
+                        <div class="product-badge">Upgrades</div>
+                        <div class="product-img-wrapper">
+                            <i class="fa-solid fa-hard-drive"></i>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">SSDs NVMe, SATA & Memórias</h3>
+                            <p class="product-desc">Acelere seu computador em até 10x com SSDs ultrarrápidos e memórias RAM DDR4/DDR5 com instalação e clonagem inclusas.</p>
+                            <div class="product-footer">
+                                <div class="product-price"><span>A pronta entrega</span></div>
+                                <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20fazer%20um%20upgrade%20com%20SSD/Memória%20RAM"
+                                    target="_blank" class="product-btn" aria-label="Consultar Preço no WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4: Periféricos -->
+                    <div class="product-card" data-category="acessorios">
+                        <div class="product-badge">Acessórios</div>
+                        <div class="product-img-wrapper">
+                            <i class="fa-solid fa-computer-mouse"></i>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Periféricos & Acessórios</h3>
+                            <p class="product-desc">Teclados ergonômicos e mecânicos, mouses gamers, headsets, cabos HDMI/DisplayPort, adaptadores e fontes de alimentação.</p>
+                            <div class="product-footer">
+                                <div class="product-price"><span>Consulte</span></div>
+                                <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20consultar%20acessórios%20e%20periféricos"
+                                    target="_blank" class="product-btn" aria-label="Consultar Preço no WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 5: Áudio & Som -->
+                    <div class="product-card" data-category="audio-rede">
+                        <div class="product-badge">Novo</div>
+                        <div class="product-img-wrapper">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Caixas de Som Bluetooth</h3>
+                            <p class="product-desc">Caixas de som com conexão Bluetooth, som limpo de alta fidelidade, graves encorpados e bateria de longa duração.</p>
+                            <div class="product-footer">
+                                <div class="product-price"><span>Consulte</span></div>
+                                <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20saber%20sobre%20as%20Caixas%20de%20Som"
+                                    target="_blank" class="product-btn" aria-label="Consultar Preço no WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product 6: Roteadores & Redes -->
+                    <div class="product-card" data-category="audio-rede">
+                        <div class="product-badge">Redes</div>
+                        <div class="product-img-wrapper">
+                            <i class="fa-solid fa-wifi"></i>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Roteadores & Wi-Fi Mesh</h3>
+                            <p class="product-desc">Roteadores Gigabit Dual-Band e sistemas Mesh para levar internet rápida e estável a todos os cômodos da sua casa ou empresa.</p>
+                            <div class="product-footer">
+                                <div class="product-price"><span>Consulte</span></div>
+                                <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20informações%20sobre%20Roteadores%20e%20equipamentos%20de%20Rede"
+                                    target="_blank" class="product-btn" aria-label="Consultar Preço no WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="consult-banner">
+                    <div class="consult-text">
+                        <h3>Precisa de orçamento para outros equipamentos ou peças?</h3>
+                        <p>Nós montamos computadores sob medida e encomendamos peças específicas para suas necessidades.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20um%20orçamento%20personalizado"
+                        target="_blank" class="btn-cta">
+                        <i class="fa-brands fa-whatsapp"></i> Falar com Roberto
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: CLOUD BACKUP -->
+        <section id="backup" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Segurança da Informação</span>
+                    <h2 class="section-title">Cloud <span>Backup</span></h2>
+                    <p class="section-desc">Proteja o bem mais precioso da sua empresa ou vida pessoal: os seus dados.
+                        Backup seguro, automatizado e sob medida.</p>
+                </div>
+
+                <div class="backup-grid">
+                    <div class="backup-content">
+                        <h2>Por que usar o Cloud Backup da Roberto Computadores?</h2>
+                        <p>Manter seus arquivos salvos apenas no computador local é um risco enorme. Falhas de hardware,
+                            vírus do tipo ransomware e acidentes podem deletar anos de trabalho em segundos. Nossa
+                            solução de backup em nuvem protege seus dados de forma automatizada e transparente.</p>
+
+                        <div class="backup-features">
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="fa-solid fa-lock"></i></div>
+                                <h3 class="feature-title">Segurança Máxima</h3>
+                                <p class="feature-desc">Criptografia de nível militar ponta a ponta para que apenas você
+                                    acesse seus arquivos.</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="fa-solid fa-rotate"></i></div>
+                                <h3 class="feature-title">Backup Automático</h3>
+                                <p class="feature-desc">Seus dados são salvos em segundo plano, sem interromper o seu
+                                    fluxo de trabalho.</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+                                <h3 class="feature-title">Rápida Recuperação</h3>
+                                <p class="feature-desc">Precisa dos arquivos de volta? Restaure seus backups de forma
+                                    simples e rápida.</p>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="fa-solid fa-user-shield"></i></div>
+                                <h3 class="feature-title">Suporte e Gestão</h3>
+                                <p class="feature-desc">Nós configuramos e monitoramos tudo para você não ter que se
+                                    preocupar com nada.</p>
+                            </div>
+                        </div>
+
+                        <div class="backup-cta">
+                            <a href="#contato" class="btn-cta" data-target="contato">
+                                <i class="fa-solid fa-shield-halved"></i> Contratar Agora
+                            </a>
+                            <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Cloud%20Backup"
+                                target="_blank" class="btn-secondary">
+                                <i class="fa-solid fa-circle-question"></i> Tirar Dúvidas
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="backup-visual">
+                        <div class="backup-card">
+                            <div class="backup-status-circle">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </div>
+                            <h3>Status do Servidor</h3>
+                            <div class="backup-server-anim">
+                                <div class="server-rack">
+                                    <span class="server-label">Nuvem Principal</span>
+                                    <div class="server-lights">
+                                        <div class="light blink"></div>
+                                        <div class="light"></div>
+                                    </div>
+                                </div>
+                                <div class="server-rack">
+                                    <span class="server-label">Mirroring Server</span>
+                                    <div class="server-lights">
+                                        <div class="light blink"></div>
+                                        <div class="light"></div>
+                                    </div>
+                                </div>
+                                <div class="server-rack">
+                                    <span class="server-label">Backup Secundário</span>
+                                    <div class="server-lights">
+                                        <div class="light blink yellow"></div>
+                                        <div class="light"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="font-size: 0.85rem; color: var(--text-secondary); text-align: center;">Todos os
+                                sistemas operacionais monitorados e protegidos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: DOWNLOADS -->
+        <section id="downloads" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Utilidades</span>
+                    <h2 class="section-title">Central de <span>Downloads</span></h2>
+                    <p class="section-desc">Baixe as ferramentas necessárias para realizarmos seu suporte técnico remoto
+                        ou utilitários para seu dia a dia.</p>
+                </div>
+
+                <div class="downloads-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="download-search-input"
+                        placeholder="Pesquisar programa (ex: AnyDesk, WinRAR)...">
+                </div>
+
+                <div class="downloads-grid" id="downloads-grid">
+                    <!-- Item 1 -->
+                    <div class="download-card" data-name="anydesk remote support suporte remoto">
+                        <div class="download-icon"><i class="fa-solid fa-desktop"></i></div>
+                        <div class="download-info">
+                            <h3 class="download-title">AnyDesk</h3>
+                            <p class="download-desc">Software leve e rápido para suporte remoto. Permite que nossa
+                                equipe acesse seu PC de forma segura.</p>
+                            <div class="download-meta">
+                                <span><i class="fa-solid fa-window-restore"></i> Windows</span>
+                                <span><i class="fa-solid fa-weight-hanging"></i> 3.8 MB</span>
+                            </div>
+                        </div>
+                        <a href="https://download.anydesk.com/AnyDesk.exe" target="_blank" class="download-btn"
+                            aria-label="Baixar AnyDesk">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="download-card" data-name="teamviewer remote support suporte remoto">
+                        <div class="download-icon"><i class="fa-solid fa-display"></i></div>
+                        <div class="download-info">
+                            <h3 class="download-title">TeamViewer QS</h3>
+                            <p class="download-desc">QuickSupport para conexão remota rápida e imediata, sem necessidade
+                                de instalação completa.</p>
+                            <div class="download-meta">
+                                <span><i class="fa-solid fa-window-restore"></i> Windows</span>
+                                <span><i class="fa-solid fa-weight-hanging"></i> 29 MB</span>
+                            </div>
+                        </div>
+                        <a href="https://download.teamviewer.com/download/TeamViewerQS.exe" target="_blank"
+                            class="download-btn" aria-label="Baixar TeamViewer">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="download-card" data-name="winrar compressor arquivos rar zip">
+                        <div class="download-icon"><i class="fa-solid fa-file-zipper"></i></div>
+                        <div class="download-info">
+                            <h3 class="download-title">WinRAR</h3>
+                            <p class="download-desc">Compactador e descompactador de arquivos essencial para abrir
+                                arquivos ZIP e RAR recebidos por e-mail.</p>
+                            <div class="download-meta">
+                                <span><i class="fa-solid fa-window-restore"></i> Windows (64bit)</span>
+                                <span><i class="fa-solid fa-weight-hanging"></i> 3.4 MB</span>
+                            </div>
+                        </div>
+                        <a href="https://www.win-rar.com/fileadmin/winrar-files/winrar-x64-621br.exe" target="_blank"
+                            class="download-btn" aria-label="Baixar WinRAR">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="download-card" data-name="google chrome web browser navegador internet">
+                        <div class="download-icon"><i class="fa-brands fa-chrome"></i></div>
+                        <div class="download-info">
+                            <h3 class="download-title">Google Chrome</h3>
+                            <p class="download-desc">Instalador online do navegador de internet mais rápido e seguro do
+                                mercado para acessar seus sites favoritos.</p>
+                            <div class="download-meta">
+                                <span><i class="fa-solid fa-window-restore"></i> Windows</span>
+                                <span><i class="fa-solid fa-weight-hanging"></i> 1.3 MB</span>
+                            </div>
+                        </div>
+                        <a href="https://dl.google.com/chrome/install/375.126/chrome_installer.exe" target="_blank"
+                            class="download-btn" aria-label="Baixar Google Chrome">
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: SOBRE -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Quem Somos</span>
+                    <h2 class="section-title">Sobre a <span>Loja</span></h2>
+                    <p class="section-desc">Conheça um pouco da nossa história e nossa missão de entregar serviços e
+                        produtos tecnológicos de excelência.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-visual">
+                        <img src="images/about_store.png" alt="Sobre Roberto Computadores" class="about-banner"
+                            id="about-img">
+                        <div class="about-badge-floating">
+                            <span class="about-badge-num">12+</span>
+                            <span class="about-badge-text">Anos de Histórico</span>
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+                        <h2>Sua referência técnica em Cajuru, SP</h2>
+                        <p>Fundada sob a premissa de que a tecnologia deve simplificar a vida e impulsionar negócios, a
+                            **Roberto Computadores** tornou-se referência em serviços de informática, reparos de alta
+                            complexidade em placas-mãe, instalação de redes, montagem de computadores
+                            corporativos/gamers e fornecimento de infraestrutura de nuvem.</p>
+                        <p>Nossa equipe foca em oferecer diagnósticos transparentes e soluções rápidas, minimizando o
+                            tempo que você ou sua empresa ficam desconectados.</p>
+
+                        <div class="about-mission">
+                            <h4><i class="fa-solid fa-bullseye"></i> Nossa Missão</h4>
+                            <p>
+                                "Oferecer soluções ágeis, seguras e eficientes em tecnologia da informação, garantindo a
+                                continuidade, a produtividade e o crescimento das operações de nossos clientes."
+                            </p>
+                        </div>
+
+                        <div class="about-features-list">
+                            <div class="about-feature">
+                                <div class="about-feature-check"><i class="fa-solid fa-check"></i></div>
+                                <div class="about-feature-text">
+                                    <h4>Técnicos Certificados</h4>
+                                    <p>Profissionais experientes prontos para diagnosticar e resolver problemas físicos
+                                        e de software.</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-check"><i class="fa-solid fa-check"></i></div>
+                                <div class="about-feature-text">
+                                    <h4>Transparência Total</h4>
+                                    <p>Só cobramos o que é realmente necessário. Orçamentos detalhados antes de qualquer
+                                        reparo.</p>
+                                </div>
+                            </div>
+                            <div class="about-feature">
+                                <div class="about-feature-check"><i class="fa-solid fa-check"></i></div>
+                                <div class="about-feature-text">
+                                    <h4>Foco em Prevenção</h4>
+                                    <p>Além de consertar, orientamos nossos clientes sobre rotinas de segurança e backup
+                                        em nuvem.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: CERTIFICADO DIGITAL -->
+        <section id="certificado" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Segurança Jurídica</span>
+                    <h2 class="section-title">Certificado <span>Digital</span></h2>
+                    <p class="section-desc">Entenda a importância de adquirir ou renovar seu certificado digital para
+                        garantir autenticidade e segurança nas transações eletrônicas.</p>
+                </div>
+                <div class="certificado-layout">
+                    <!-- Imagem Esquerda -->
+                    <div class="certificado-img-col">
+                        <a href="https://onlinesolucoesdigitais.com.br/LocaisDeAtendimento" target="_blank"
+                            rel="noopener noreferrer" aria-label="Acesse o site Digital System">
+                            <img src="images/LOGO DIGITAL SYSTEM.jpg" alt="Logo Digital System" class="certificado-img">
+                        </a>
+                    </div>
+
+                    <!-- Conteúdo Central -->
+                    <div class="certificado-content">
+                        <p>Um certificado digital funciona como uma <strong>identidade eletrônica</strong> que permite
+                            assinar documentos, validar transações e acessar serviços governamentais com validade
+                            jurídica.</p>
+                        <p class="certificado-benefits-title">Principais Benefícios:</p>
+                        <ul class="certificado-list">
+                            <li><i class="fa-solid fa-circle-check"></i> Assinatura de documentos com validade legal.
+                            </li>
+                            <li><i class="fa-solid fa-circle-check"></i> Segurança reforçada contra fraudes.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Acesso a serviços públicos online (e-CPF,
+                                e-CNPJ).</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Redução de burocracia e ganho de produtividade.
+                            </li>
+                        </ul>
+                        <p class="certificado-alert"><i class="fa-solid fa-triangle-exclamation"></i> Renove antes do
+                            vencimento para evitar interrupções em processos que dependem de assinatura digital.</p>
+                        <a href="https://wa.me/5516993416500?text=Olá,%20gostaria%20de%20saber%20sobre%20Certificado%20Digital"
+                            target="_blank" class="btn-cta" style="margin-top: 16px; display: inline-flex;">
+                            <i class="fa-brands fa-whatsapp"></i> Solicitar Certificado
+                        </a>
+                    </div>
+
+                    <!-- Imagem Direita -->
+                    <div class="certificado-img-col">
+                        <a href="https://onlinesolucoesdigitais.com.br/LocaisDeAtendimento" target="_blank"
+                            rel="noopener noreferrer" aria-label="Acesse o site Digital System">
+                            <img src="images/LOGO DIGITAL SYSTEM.jpg" alt="Logo Digital System" class="certificado-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6: CONTATO E LOCALIZAÇÃO -->
+        <section id="contato" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Atendimento</span>
+                    <h2 class="section-title">Contato & <span>Localização</span></h2>
+                    <p class="section-desc">Fale conosco para esclarecer dúvidas, solicitar assistência técnica ou fazer
+                        orçamentos sob medida. Visite-nos em nossa loja física.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact info details and Google Maps -->
+                    <div class="contact-info-panel">
+                        <h2>Canais de Atendimento</h2>
+                        <p>Escolha a melhor maneira de entrar em contato conosco. Estamos sempre prontos para responder
+                            o mais rápido possível.</p>
+
+                        <div class="contact-card-list">
+                            <!-- Info 1 -->
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="contact-info-text">
+                                    <h4>Endereço</h4>
+                                    <p>Rua Dr. Matta, 467 - Sala 01 - Centro<br>Cajuru - SP, Brasil</p>
+                                </div>
+                            </div>
+
+                            <!-- Info 2 -->
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-info-text">
+                                    <h4>Telefone / Celular</h4>
+                                    <p>(16) 3667-2332 (Fixo)<br></p>
+                                    <p><a href="https://wa.me/5516993416500" target="_blank">WhatsApp: (16)
+                                            99341-6500</a></p>
+                                </div>
+                            </div>
+
+                            <!-- Info 3 -->
+                            <div class="contact-info-card">
+                                <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-info-text">
+                                    <h4>E-mail</h4>
+                                    <p><a href="https://wa.me/5516993416500"
+                                            target="_blank">contato@robertocomputadores.com.br</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 style="margin-bottom: 12px; font-weight: 700;">Siga-nos nas Redes Sociais</h4>
+                            <div class="contact-socials">
+                                <a href="https://www.facebook.com/robertocomputadorescajuru/" target="_blank"
+                                    class="social-btn" aria-label="Acesse nosso Facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="https://wa.me/5516993416500" target="_blank" class="social-btn"
+                                    aria-label="Fale Conosco pelo WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel">
+                        <h2>Envie uma Mensagem</h2>
+                        <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem;">Preencha o
+                            formulário abaixo e entraremos em contato o mais breve possível.</p>
+
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Seu Nome *</label>
+                                    <input type="text" id="name" required placeholder="Digite seu nome completo">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Seu Celular / WhatsApp *</label>
+                                    <input type="tel" id="phone" required placeholder="(16) 99999-9999">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Seu E-mail</label>
+                                <input type="email" id="email" placeholder="nome@exemplo.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Assunto *</label>
+                                <select id="subject" required>
+                                    <option value="" disabled selected>Selecione o motivo do contato</option>
+                                    <option value="Suporte Técnico">Suporte Técnico / Reparo</option>
+                                    <option value="Orçamento de Produto">Orçamento de Computador/Peças</option>
+                                    <option value="Cloud Backup">Cloud Backup / Nuvem</option>
+                                    <option value="Outros">Outras dúvidas</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mensagem *</label>
+                                <textarea id="message" required
+                                    placeholder="Descreva em detalhes o que você precisa..."></textarea>
+                            </div>
+
+                            <div id="form-feedback" class="form-feedback"></div>
+
+                            <div class="form-actions-row">
+                                <button type="submit" class="btn-cta" style="flex: 1; justify-content: center;">
+                                    <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+                                </button>
+                                <button type="button" id="send-whatsapp-direct" class="btn-whatsapp-direct" title="Enviar diretamente pelo WhatsApp">
+                                    <i class="fa-brands fa-whatsapp"></i> Conversar no WhatsApp
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Google Maps Header & Actions -->
+                <div class="map-action-bar">
+                    <div class="map-address-badge">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span><strong>Endereço:</strong> Rua Dr. Matta, 467 - Sala 01 - Centro, Cajuru - SP</span>
+                    </div>
+                    <div class="map-quick-links">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=Rua+Dr.+Matta,+467+-+Centro,+Cajuru+-+SP"
+                            target="_blank" rel="noopener noreferrer" class="map-btn map-btn-google">
+                            <i class="fa-solid fa-diamond-turn-right"></i> Como Chegar (Google Maps)
+                        </a>
+                        <a href="https://waze.com/ul?q=Rua+Dr.+Matta+467+Cajuru+SP"
+                            target="_blank" rel="noopener noreferrer" class="map-btn map-btn-waze">
+                            <i class="fa-solid fa-car-side"></i> Abrir no Waze
+                        </a>
+                        <button type="button" class="map-btn map-btn-copy" id="copy-address-btn">
+                            <i class="fa-regular fa-copy"></i> <span id="copy-text">Copiar Endereço</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed -->
+                <div class="map-container-wrapper">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Rua+Dr.+Matta,+467+-+Centro,+Cajuru+-+SP&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Localização de Roberto Computadores no Google Maps">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo" data-target="inicio">
+                    <img src="images/logo_light.png" alt="Roberto Computadores Logo" class="logo-img logo-light">
+                    <img src="images/logo_dark.png" alt="Roberto Computadores Logo" class="logo-img logo-dark">
+                </a>
+                <p>Equipamentos de alta tecnologia, assistência técnica honesta e soluções em nuvem qualificadas em
+                    Cajuru, SP.</p>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">CNPJ: e-CNPJ Credenciado</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio" data-target="inicio">Início</a></li>
+                    <li><a href="#produtos" data-target="produtos">Produtos</a></li>
+                    <li><a href="#backup" data-target="backup">Cloud Backup</a></li>
+                    <li><a href="#downloads" data-target="downloads">Downloads</a></li>
+                    <li><a href="#sobre" data-target="sobre">Sobre</a></li>
+                    <li><a href="#certificado" data-target="certificado">Certificado Digital</a></li>
+                    <li><a href="#contato" data-target="contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Serviços</h4>
+                <ul class="footer-links">
+                    <li><a href="#contato" data-target="contato">Assistência de Notebooks</a></li>
+                    <li><a href="#contato" data-target="contato">Formatação e Limpeza</a></li>
+                    <li><a href="#backup" data-target="backup">Backup Automatizado</a></li>
+                    <li><a href="#contato" data-target="contato">Montagem de PC Gamer</a></li>
+                    <li><a href="#contato" data-target="contato">Instalação de Redes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>(16) 3667-2332</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Rua Dr. Matta, 467 Sala 01<br>Centro - Cajuru - SP</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Seg - Sex: 08:00 às 18:00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>Copyright &copy; 2026 <strong>Roberto Computadores</strong>. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <strong>RR On Line</strong> | Cajuru - SP - BRASIL</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action Widget -->
+    <a href="https://wa.me/5516993416500?text=Olá!%20Vim%20pelo%20site%20da%20Roberto%20Computadores%20e%20gostaria%20de%20um%20atendimento."
+        target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Fale Conosco pelo WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="floating-whatsapp-badge">WhatsApp</span>
+    </a>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Custom Application Logic -->
+    <script src="app.js"></script>
+</body>
+
+</html>
